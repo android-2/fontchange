@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Pof Ramkrishnam more college of arts and commerce and science"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        android:layout_marginTop="100dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+         />
+    <Button
+        android:id="@+id/btnred"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Red"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:layout_marginLeft="150dp"
+        android:layout_marginTop="20dp"
+        /><Button
+    android:id="@+id/btnpurple"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="purple"
+    android:textSize="30dp"
+    android:textStyle="bold"
+    android:layout_marginLeft="150dp"
+    android:layout_marginTop="20dp"
+    /><Button
+    android:id="@+id/btnyellow"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="yellow"
+    android:textSize="30dp"
+    android:textStyle="bold"
+    android:layout_marginLeft="150dp"
+    android:layout_marginTop="20dp"
+    /><Button
+    android:id="@+id/btngreen"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="green"
+    android:textSize="30dp"
+    android:textStyle="bold"
+    android:layout_marginLeft="150dp"
+    android:layout_marginTop="20dp"
+    /><Button
+    android:id="@+id/btnblue"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="blue"
+    android:textSize="30dp"
+    android:textStyle="bold"
+    android:layout_marginLeft="150dp"
+    android:layout_marginTop="20dp"
+    />
+    <Button
+        android:id="@+id/btnstyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="font style"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:layout_marginLeft="150dp"
+        android:layout_marginTop="20dp"
+        />
+
+</LinearLayout>
+
